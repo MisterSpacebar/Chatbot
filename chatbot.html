@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <script>
+        var chatOut;
+        var chatIn = prompt("What is your question?");
+
+        if(chatIn.toLowerCase=="joke"){
+            alert("What do you call Batman when he skips out on church? Christian Bale!");
+            location.reload();
+        } else if(chatIn.toLowerCase=="hello","hi") {
+            alert("Hello! How was your day?");
+            location.reload();
+        } else if(chatIn.toLowerCase=="how are you") {
+            alert("I'm doing good, how about you?");
+            location.reload();
+        } else if(chatIn.toLowerCase=="your"&&"name" || "who are you") {
+            alert("My name is ChatBot");
+            location.reload();
+        } else if(chatIn.indexOf()==-1) {
+            alert("Sorry, I don't know that one");
+            location.reload();
+        }
+    </script>
+</body>
+</html>
